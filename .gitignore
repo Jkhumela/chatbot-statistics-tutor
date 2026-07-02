@@ -1,0 +1,28 @@
+# Downloaded textbook PDFs — freely distributed by authors, not ours to redistribute
+textbooks/
+
+# Generated FAISS index (large binary, regenerate via `python -m src.ingest`)
+faiss_index/
+
+# Model weights / caches
+*.gguf
+*.bin
+*.safetensors
+.cache/
+huggingface/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
